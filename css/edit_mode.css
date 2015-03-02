@@ -1,0 +1,5 @@
+.carousel .image-region-wrapper > img {
+	display: block;
+	width: 200px;
+	height: auto;
+}
