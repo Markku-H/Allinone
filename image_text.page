@@ -19,6 +19,7 @@
     <body>
 
         <div id="main">
+            <h1>THIS IS A FIXED HEADER</h1>
 
             <%= render :image => 'main_image', :default => "/templates/step_by_step_guide/img/1.gif", :width => 800, :height => 200..800, :html => { :class => "hero_image" } %>
             
