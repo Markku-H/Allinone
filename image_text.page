@@ -19,7 +19,7 @@
     <body>
 
         <div id="main">
-            <%= render :image => 'main_image', :default => "/templates/step_by_step_guide/img/1.gif", :width => 800, :height => 200..800, :html => { :class => "hero_image" } %>
+            <%= render :image => 'main_image', :default => "/templates/step_by_step_guide/img/2.gif", :width => 400, :height => 200..800, :html => { :class => "hero_image" } %>
             
             <div class="editable_text">
                 <h1><%= render :textual => 'h1copy', :default => "Header text h1", :maxlength => '75' %></h1>
