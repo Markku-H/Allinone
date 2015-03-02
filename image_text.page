@@ -19,7 +19,7 @@
     <body>
 
         <div id="main">
-            <%= render :imagehsd => 'main_image', :default => "/templates/step_by_step_guide/img/1.gif", :width => 800, :height => 200..800, :html => { :class => "hero_image" } %>
+            <%= render :image => 'main_image', :default => "/templates/step_by_step_guide/img/1.gif", :width => 800, :height => 200..800, :html => { :class => "hero_image" } %>
             
             <div class="editable_text">
                 <%= render :textual => 'bodycopy', :type => :multi, :default => "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>" %>
