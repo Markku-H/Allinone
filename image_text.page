@@ -21,10 +21,19 @@
         <div id="main">
             <%= render :image => 'main_image', :default => "/templates/step_by_step_guide/img/2.gif", :width => 400, :height => 200..800, :html => { :class => "hero_image" } %>
 
+
             <%= render :link => "link_region_unique_name", :text_editable => true, :link_value => "#", :text => "Read More" %>
             
             <div class="editable_text">
-                <h1><%= render :textual => 'h1copy', :default => "Header text h1", :maxlength => '75' %></h1>
+                
+
+                <%= render :link => "wraplink", :text_editable => false, :link_value => '#' do %> 
+                    <%= render :image => 'smaller_img', :default => "/templates/step_by_step_guide/img/3.gif", :width => 400, :height => 200 %>
+                <% end %>
+
+
+
+                    <h1><%= render :textual => 'h1copy', :default => "Header text h1", :maxlength => '75' %></h1>
 
                 <%= render :textual => 'bodycopy', :type => :multi, :default => "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>" %>
             </div>
